@@ -21,6 +21,6 @@ int main(void)
     putchar(v3);
     putchar(v2);
     putchar(v1);
-    
+
     return 0;
 }
