@@ -61,5 +61,12 @@ int main(void)
     double var_db = 54.34675;
     printf("[%10d]\n", var_int);
     printf("[%10f]\n", var_db);
+
+    printf("\n");
+    unsigned height = 12345012;
+    long long dist = 1234567890LL;
+    long double weight = 45.7845;
+    printf("%u %llu %.4LF\n", height, dist, weight);  // почему-то последнее число выводится как 0.0000
+
     return 0;
 }
