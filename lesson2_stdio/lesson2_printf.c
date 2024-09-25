@@ -69,5 +69,15 @@ int main(void)
     long double weight2 = 45.7845;
     printf("%u %lld %.4f, %.4Lf", height, dist, weight1, weight2);  // почему-то последнее число выводится как 0.0000
 
+    printf("\n");
+    double d = 546e-3;
+    printf("%.3f\n", d);
+
+    unsigned char h = 11, m = 8, s = 1;
+    printf("%02u:%02u:%02u\n", h, m, s);  // 11:08:01
+
+    unsigned char h2 = 12, m2 = 3, s2 = 9;
+    printf("%#04x:%#04x:%#04x\n", h2, m2, s2);  // 0x0c:0x03:0x09
+
     return 0;
 }
