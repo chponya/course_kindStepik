@@ -6,6 +6,7 @@
             "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
             "args": [
                 "-std=c99",
+                "-D__USE_MINGW_ANSI_STDIO",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",

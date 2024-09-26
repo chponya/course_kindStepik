@@ -1,5 +1,5 @@
 #include <stdio.h>
- 
+
 int main(void)
 {
     // print formatted (форматированный вывод)
@@ -66,8 +66,8 @@ int main(void)
     unsigned height = 12345012;
     long long dist = 1234567890LL;
     double weight1 = 45.7845;
-    long double weight2 = 45.7845;
-    printf("%u %lld %.4f, %.4Lf", height, dist, weight1, weight2);  // почему-то последнее число выводится как 0.0000
+    long double weight2 = 45.1e-2;
+    printf("%u %lld %.4f, %.4Lf", sizeof(long double), dist, weight1, weight2);  // почему-то последнее число выводится как 0.0000
 
     printf("\n");
     double d = 546e-3;
